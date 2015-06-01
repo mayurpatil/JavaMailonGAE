@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mail Demo</title>
+</head>
+<body>
+  <h3>
+    Developed, Debugged, Tested in Codenvy.com, Deployed on Google App Engine. mr.mayur.patil@gmail.com
+  </h3>
+<form action="/mail" method="get">
+  <fieldset>
+    <legend>
+      Sending email using javax.mail
+    </legend>
+  
+  
+    Sender's Email Id :  <input type="email" name="fromaddress" required autofocus>
+    Recipient Email Id : <input type="email" name="toaddress" required>
+    
+    Subject: <input type="text" name="subject" required>  
+    Email body: <textarea name="body" required></textarea> 
+  <input type="Submit" name="Mail Now">
+    </fieldset>
+  </form>
+  
+  
+</body>
+</html>
